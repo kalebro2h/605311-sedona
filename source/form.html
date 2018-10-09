@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+
+		<meta charset="utf-8">
+    <title>Седона</title>
+    
+	  </head>
+  
+	  <body>
+      
+      <header class="page-header">
+        <a class="page-header__logo" href="index.html"><img class="page-header__logo-image" src="http://placehold.it/150x100" alt="Логотип Седона" width="102" height="83"></a></li>
+         
+        <nav class="main-nav">
+          <button class="main-nav-toggle" type="button">Открыть меню</button>
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item-active"><a href="#">Главная</a></li>
+            <li class="site-list__item"><a href="#">Фото и видео</a></li>
+            <li class="site-list__item"><a href="#">Форма отзыва</a></li>
+            <li class="site-list__item"><a href="#">Html academy</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section  class="review">
+        <h2 class="review__h2 section-black">Оставьте свой отзыв</h2>
+        <span class="review__span span-color-black">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</span>
+      </section>
+
+      <section  class="name">
+        <hr class="name__hr hr-section">
+        <h2 class="name__h2 section-black">Представьтесь:</h2>
+        <label for="input-name">Имя*:</label>
+        <input type="text" name="name" placeholder="Петр" class="input-name">
+        <label for="input-name">Фамилия*:</label>
+        <input type="text" name="name" placeholder="Иванов" class="input-name">
+        <label for="input-name">Отчество*:</label>
+        <input type="text" name="name" placeholder="Александрович" class="input-name">
+      </section>
+
+      <section class="contacts">
+          <hr class="contacts__hr hr-section">
+          <label for="input-telephone">Контактный телефон*:</label><br>
+          <input type="number" name="telephone" placeholder="Введите телефон" class="input-name" id="input-telephone">
+          <label for="input-email" id="">Электронная почта*:</label><br>
+          <input type="text" name="email" placeholder="Введите e-mail" class="input-email" id="input-email">
+      </section>
+
+      <section class="impression">
+        <hr class="impression__hr hr-section">
+        <h2 class="impression__h2 section-black">Ваше общее впечатление:</h2>
+        <ul class="impression__ul">
+            <li><input type="radio" name="radio-positive" value="radio-positive" class="impression__radio impression__radio-active" id="radio-positive" checked>
+            <label for="radio-positive">Скорее положительное</label></li>
+            <li><input type="radio" name="radio-negative" id="radio-negative" value="radio-negative" class="impression__radio">
+            <label for="radio-negative">Скорее отрицательное</label></li>
+            <li><input type="radio" name="radio-notsure" id="radio-notsure" value="radio-notsure" class="impression__radio">
+            <label for="radio-notsure">Затрудняюсь ответить</label></li>
+          </ul>
+      </section>
+
+      <section class="attraction">
+        <hr class="attraction__hr hr-section">
+        <h2 class="attraction__h2 section-black">Посещенные 
+        достопримечательности:</h2>
+        <ul class="attraction__ul">
+          <li><input type="checkbox" name="checkbox" id="checkbox-most" value="checkbox-most" class="attraction__checkbox checkbox-active" checked>
+          <label for="checkbox-most">Мост длявола</label></li>
+          <li><input type="checkbox" name="checkbox" id="checkbox-gora" value="checkbox-gora" class="attraction__checkbox checkbox-active" checked>
+          <label for="checkbox-gora">Гора-Колокол</label></li>
+          <li><input type="checkbox" name="checkbox" id="checkbox-park" value="checkbox-park" class="attraction__checkbox checkbox-active" checked>
+          <label for="checkbox-park">Слайд-парк</label></li>
+          <li><input type="checkbox" name="checkbox" id="checkbox-skali" value="checkbox-skali" class="attraction__checkbox">
+          <label for="checkbox-skali">Красные скалы</label></li>
+        </ul>
+      </section>
+
+      <section class="attraction">
+        <hr class="attraction__hr hr-section">
+        <h2 class="attraction__h2 section-black">Опишите свои эмоции:</h2>
+        <textarea placeholder="Опишите подробно все свои восторги" rows="6" cols="45" id="attraction__input" class="attraction__input"></textarea>
+				<button type="submit" name="attraction__sibmit" class="button attraction__sibmit">Отправить отзыв</button>
+      </section>
+
+
+
+      <footer>
+        <p class="visitsedona 21pt">#visitsedona</p>
+        <ul class="visitsedona__button button">
+          <li class="visitsedona__button-item"><a class="visitsedona__button-link" href="#">twitter</a></li>
+          <li class="visitsedona__button-item"><a class="visitsedona__button-link" href="#">facebook</a></li>
+          <li class="visitsedona__button-item"><a class="visitsedona__button-link" href="#">youtube</a></li>
+        </ul>
+
+        <span class="developedby">Разработано</span> 
+    
+      </footer>
+
+    </body>
+
+</html>
